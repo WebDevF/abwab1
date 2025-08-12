@@ -1,110 +1,154 @@
 "use client"
 
+import { useState } from "react"
 import { useTranslation } from "react-i18next"
 
-export default function Header() {
-  const { t, i18n } = useTranslation()
+export default function Services() {
+  const { t } = useTranslation()
 
-  const toggleLanguage = () => {
-    i18n.changeLanguage(i18n.language === "ar" ? "en" : "ar")
-  }
+  const images = [
+    { id: 1, img: "/assets/img/services/9afa8704-cbe4-4101-a4e4-0bc9f3f10efa 1.png" },
+    { id: 2, img: "/assets/img/services/Bear Sculptures Display.png" },
+    { id: 3, img: "/assets/img/services/Blurred Data Center View.png" },
+    { id: 4, img: "/assets/img/services/Minimalist Chair Design.png" },
+    { id: 5, img: "/assets/img/services/High-Quality Audio Speakers.png" },
+    { id: 6, img: "/assets/img/services/Server Rack Close-Up.png" },
+  ]
+
+  const [selectedImage, setSelectedImage] = useState(images[0].img)
+  const buttons = t("services.buttons", { returnObjects: true })
 
   return (
-    <div className="flex flex-col items-center justify-center px-4 sm:px-6 md:px-8 lg:px-6 xl:px-6 py-3 relative">
-      <div
-        className="grid w-full max-w-[370px] sm:max-w-[600px] md:max-w-[900px] lg:max-w-[1200px] xl:max-w-[1300px] h-[400px] sm:h-[500px] md:h-[550px] lg:h-[575px] rounded-[2.5rem] md:rounded-[3.5rem] lg:rounded-[4.5rem] py-4 md:p-6 lg:p-8 bg-cover bg-center overflow-hidden"
-        style={{ backgroundImage: "url('/assets/img/header/image 23.png')" }}
-      >
-        <div className="flex items-start justify-between w-full px-6 sm:px-8 md:px-10 lg:px-6 pt-0 pb-6 md:pt-1 md:pb-1 z-10"> 
-          <img
-            src="/assets/img/header/Layer 1.svg"
-            alt=""
-            className="w-[80px] sm:w-[100px] md:w-[140px] lg:w-[180px] pt-2"
-          />
-
-          <div className="flex items-center gap-2 sm:gap-3 md:gap-4">
-            <button
-              onClick={toggleLanguage}
-              className="flex items-center gap-1 text-white text-[14px] sm:text-[16px] md:text-[20px] lg:text-[24px] xl:text-[30px] cursor-pointer"
-            >
-              {i18n.language === "ar" ? "ع" : "EN"}
-              <img
-                src="/assets/img/header/ic_round-language.svg"
-                alt=""
-                className="w-[18px] h-[18px] sm:w-[20px] sm:h-[20px] md:w-[22px] md:h-[22px]"
-              />
-            </button>
-
-            <button className="flex items-center gap-1 text-white text-[10px] sm:text-[12px] md:text-[16px] lg:text-[20px] xl:text-[25px] border border-white px-3 sm:px-4 md:px-6 lg:px-5 xl:px-8 py-1.5 sm:py-2 md:py-1.5 lg:py-3 rounded-full font-[400] cursor-pointer hover:bg-[#FFFFFF3A] hover:text-white transition-all duration-300">
-              {t("header.contact_us")}
-              <img
-                src="/assets/img/header/SVG.svg"
-                alt=""
-                className="w-[16px] h-[16px] sm:w-[18px] sm:h-[18px] md:w-[20px] md:h-[20px] lg:w-[25px] lg:h-[25px]"
-              />
-            </button>
-          </div>
+    <div className="w-full">
+      <div className="w-full flex flex-col items-center text-center gap-4 px-4 sm:px-6 lg:px-8 py-5 sm:py-8 lg:mt-10">
+        <div className="flex items-center gap-2 text-sm sm:text-base font-normal text-[#0A40C6] bg-[#E7ECF9] px-3 sm:px-4 py-2 rounded-full w-fit">
+          <img src="/assets/img/services/Layer_x0020_1 (1).svg" className="w-4 h-4 sm:w-5 sm:h-5" alt="" />
+          <span className="text-[0.6rem] sm:text-[1rem] lg:text-[1rem] font-normal text-[#0A40C6]">{t("services.badge")}</span>
         </div>
 
-        <div className="flex flex-col items-center justify-center text-center text-white p-4 sm:p-5 md:p-6 lg:p-4 xl:p-4 z-10 -translate-y-8 sm:-translate-y-10 md:-translate-y-12 lg:-translate-y-16 xl:-translate-y-20">
-          <h1 className="text-[1rem] sm:text-[1.4rem] md:text-[1.5rem] lg:text-[2rem] xl:text-[2.8rem] font-[600] mb-3 sm:mb-4 leading-tight max-w-7xl">
-            {t("header.header_title")}
-          </h1>
-          <p className="text-[9px] sm:text-[14px] md:text-[18px] lg:text-[25px] xl:text-[24px] font-[500] mb-3 sm:mb-4 max-w-5xl leading-relaxed max-w-[50rem]">
-            {t("header.header_desc")}
-          </p>
-          <button className="text-white text-[8px] sm:text-[10px] md:text-[14px] lg:text-[18px] xl:text-[22px] border border-white mt-2 px-3 sm:px-4 md:px-6 lg:px-8 xl:px-10 py-1 sm:py-2 md:py-3 lg:py-4 rounded-full font-[400] cursor-pointer hover:bg-[#FFFFFF3A] hover:text-white transition-all duration-300 max-sm:w-[8rem]">
-            {t("header.header_btn")}
-          </button>
-        </div>
+        <h1 className="text-[1rem] sm:text-[1.2rem] md:text-[2.4rem] lg:text-[2.8rem] xl:text-[2.3rem] font-medium text-black max-w-4xl leading-tight">
+          {t("services.heading")}
+        </h1>
       </div>
 
-      <div className="mt-[-60px] sm:mt-[-80px] md:mt-[-100px] lg:mt-[-120px] xl:mt-[-130px] w-[95%] sm:w-[90%] md:w-[85%] lg:w-[1100px] xl:w-[1200px] h-[45px] sm:h-[60px] md:h-[80px] lg:h-[100px] xl:h-[113px] bg-white/10 rounded-[0.75rem] sm:rounded-[1rem] md:rounded-[1.5rem] lg:rounded-[2rem] py-2 sm:py-3 md:py-4 lg:py-6 xl:py-7 px-2 sm:px-4 md:px-6 lg:px-8 xl:px-10 z-10 flex flex-row justify-between items-center text-white backdrop-blur-sm">
-        <div className="flex items-center gap-1 sm:gap-2 md:gap-3 md:pr-6 lg:pr-8 xl:pr-10">
-          <img
-            src="/assets/img/header/Frame 1597883596.svg"
-            alt="icon1"
-            className="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[25px] md:h-[25px] lg:w-[35px] lg:h-[35px] xl:w-[40px] xl:h-[40px]"
-          />
-          <div className="flex flex-col">
-            <h1 className="text-[8px] sm:text-[10px] md:text-[14px] lg:text-[20px] xl:text-[24px] font-bold">
-              {t("header.stats.0.value")}
-            </h1>
-            <p className="text-[7px] sm:text-[9px] md:text-[12px] lg:text-[16px] xl:text-[18px] font-light">
-              {t("header.stats.0.label")}
-            </p>
+      <div className="w-full px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16 ">
+        <div className="block lg:hidden">
+          <div className="w-full mb-8">
+            <img
+              src={selectedImage || "/placeholder.svg"}
+              alt="Selected service"
+              className="w-full h-64 sm:h-80 object-cover rounded-2xl sm:rounded-3xl"
+            />
+          </div>
+
+          <div className="flex flex-col gap-3 sm:gap-4">
+            {buttons.map((text, index) => (
+              <button
+                key={index}
+                className={`text-left text-base sm:text-lg font-normal px-4 sm:px-6 py-3 sm:py-4 rounded-xl sm:rounded-2xl transition-all duration-200 ${
+                  selectedImage === images[index].img
+                    ? "bg-[#0A40C6] text-white shadow-lg"
+                    : "bg-[#F8F8F8] text-[#3D3C3C] hover:bg-[#EEEEEE]"
+                }`}
+                onClick={() => setSelectedImage(images[index].img)}
+              >
+                {text}
+              </button>
+            ))}
           </div>
         </div>
 
-        <div className="flex items-center gap-1 sm:gap-2 md:gap-3">
-          <img
-            src="/assets/img/header/Frame 1597883596 (1).svg"
-            alt="icon2"
-            className="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[25px] md:h-[25px] lg:w-[35px] lg:h-[35px] xl:w-[40px] xl:h-[40px]"
-          />
-          <div className="flex flex-col">
-            <h1 className="text-[8px] sm:text-[10px] md:text-[14px] lg:text-[20px] xl:text-[24px] font-bold">
-              {t("header.stats.1.value")}
-            </h1>
-            <p className="text-[7px] sm:text-[9px] md:text-[12px] lg:text-[16px] xl:text-[18px] font-light">
-              {t("header.stats.1.label")}
-            </p>
+        <div className="hidden lg:block">
+          <div className="grid grid-cols-12 gap-6 xl:gap-8 2xl:gap-12 items-center min-h-[600px] xl:min-h-[580px]">
+            <div className="col-span-12 lg:col-span-3 xl:col-span-3">
+              <div className="flex flex-col gap-7 xl:gap-7">
+                {buttons.map((text, index) => (
+                  <button
+                    key={index}
+                    className={`text-right text-[1.2rem]  xl:text-[1.3rem] 2xl:text-[1.5rem] font-[700] px-5 xl:px-8 py-4 xl:py-5 2xl:py-6 rounded-2xl xl:rounded-xl transition-all duration-200 whitespace-nowrap cursor-pointer ${
+                      selectedImage === images[index].img
+                        ? "bg-[#0A40C6] text-white shadow-lg transform scale-[1.02]"
+                        : "bg-[#F8F8F8] text-[#3D3C3C] hover:bg-[#EEEEEE] hover:transform hover:scale-[1.01]"
+                    }`}
+                    onClick={() => setSelectedImage(images[index].img)}
+                  >
+                    {text}
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            <div className="col-span-12 lg:col-span-6 xl:col-span-6">
+              <div className="flex justify-center">
+                <img
+                  src={selectedImage || "/placeholder.svg"} 
+                  alt="Selected service"
+                  className="w-full  h-[510px] xl:h-[530px] 2xl:h-[680px] object-cover rounded-3xl xl:rounded-[1rem] shadow-lg transition-all duration-300"
+                />
+              </div>
+            </div>
+
+            <div className="col-span-12 lg:col-span-3 xl:col-span-3">
+              <div className="flex flex-col gap-5 xl:gap-5">
+                <img
+                  src="/assets/img/services/Frame 1597883614.png"
+                  alt="Service feature 1"
+                  className="w-full max-w-[280px] xl:max-w-[320px] 2xl:max-w-[380px] h-[185px] xl:h-[200px] 2xl:h-[240px] object-cover rounded-2xl xl:rounded-3xl shadow-md hover:shadow-lg transition-shadow duration-200 mx-auto lg:mx-0"
+                />
+                <img
+                  src="/assets/img/services/happy-man.png"
+                  alt="Service feature 2"
+                  className="w-full max-w-[280px] xl:max-w-[320px] 2xl:max-w-[380px] h-[300px] xl:h-[320px] 2xl:h-[380px] object-cover rounded-2xl xl:rounded-3xl shadow-md hover:shadow-lg transition-shadow duration-200 mx-auto lg:mx-0"
+                />
+              </div>
+            </div>
           </div>
         </div>
 
-        <div className="flex items-center gap-1 sm:gap-2 md:gap-3 md:pl-6 lg:pl-8 xl:pl-10">
-          <img
-            src="/assets/img/header/Frame 1597883596 (2).svg"
-            alt="icon3"
-            className="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[25px] md:h-[25px] lg:w-[35px] lg:h-[35px] xl:w-[40px] xl:h-[40px]"
-          />
-          <div className="flex flex-col">
-            <h1 className="text-[8px] sm:text-[10px] md:text-[14px] lg:text-[20px] xl:text-[24px] font-bold">
-              {t("header.stats.2.value")}
-            </h1>
-            <p className="text-[7px] sm:text-[9px] md:text-[12px] lg:text-[16px] xl:text-[18px] font-light">
-              {t("header.stats.2.label")}
-            </p>
+        <div className="hidden md:block lg:hidden">
+          <div className="flex flex-col gap-8">
+            <div className="w-full">
+              <img
+                src={selectedImage || "/placeholder.svg"}
+                alt="Selected service"
+                className="w-full h-[400px] object-cover rounded-3xl mx-auto"
+              />
+            </div>
+
+            <div className="grid grid-cols-12 gap-6 items-start">
+              <div className="col-span-8">
+                <div className="grid grid-cols-2 gap-3">
+                  {buttons.map((text, index) => (
+                    <button
+                      key={index}
+                      className={`text-right lg-mid:text-[1.4rem] font-[700] px-6 xl:px-8 py-4 xl:py-5 2xl:py-6 rounded-2xl xl:rounded-3xl transition-all duration-200 whitespace-nowrap cursor-pointer ${
+                        selectedImage === images[index].img
+                          ? "bg-[#0A40C6] text-white shadow-lg"
+                          : "bg-[#F8F8F8] text-[#3D3C3C] hover:bg-[#EEEEEE]"
+                      }`}
+                      onClick={() => setSelectedImage(images[index].img)}
+                    >
+                      {text}
+                    </button>
+                  ))}
+                </div>
+              </div>
+
+              <div className="col-span-4">
+                <div className="flex flex-col gap-4">
+                  <img
+                    src="/assets/img/services/Frame 1597883614.png"
+                    alt="Service feature 1"
+                    className="w-full h-[120px] object-cover rounded-2xl shadow-md"
+                  />
+                  <img
+                    src="/assets/img/services/happy-man.png"
+                    alt="Service feature 2"
+                    className="w-full h-[180px] object-cover rounded-2xl shadow-md"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
