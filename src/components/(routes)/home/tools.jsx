@@ -60,13 +60,13 @@ export default function Tools() {
           {doubledTools.map((tool, index) => (
             <div
               key={index}
-              className="w-[179px] h-[80px] rounded-[20px] shadow flex items-center justify-center flex-shrink-0"
+              className="w-[120px] h-[60px] xl:w-[150px] xl:h-[80px] rounded-[20px] shadow flex items-center justify-center flex-shrink-0"
               style={{ backgroundColor: tool.bgColor }}
             >
               <img
                 src={tool.src}
                 alt=""
-                className="w-[130px] h-[50px]"
+                className="w-[90px] h-[45px] xl:w-[130px] xl:h-[50px]"
               />
             </div>
           ))}
