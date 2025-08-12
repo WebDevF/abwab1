@@ -93,7 +93,7 @@
           { "icon": "/assets/img/projects/01.svg", "value": "450,000", "label": "Funding Achieved" },
           { "icon": "/assets/img/projects/fi_2285485.svg", "value": "45", "label": "Days to Launch" }
         ],
-        "image": "/public/assets/img/projects/High-Quality Audio Speakers.png"
+        "image": "/assets/img/projects/High-Quality Audio Speakers.png"
       },
       {
         "category": "Advanced SaaS Platforms",
@@ -103,7 +103,7 @@
           { "icon": "/assets/img/projects/01.svg", "value": "450,000", "label": "Funding Achieved" },
           { "icon": "/assets/img/projects/fi_2285485.svg", "value": "45", "label": "Days to Launch" }
         ],
-        "image": "/public/assets/img/projects/Modern Device Setup.png"
+        "image": "/assets/img/projects/Modern Device Setup.png"
       },
       {
         "category": "Professional Visual Identity & Branding",
@@ -113,7 +113,7 @@
           { "icon": "/assets/img/projects/01.svg", "value": "450,000", "label": "Funding Achieved" },
           { "icon": "/assets/img/projects/fi_2285485.svg", "value": "45", "label": "Days to Launch" }
         ],
-        "image": "/public/assets/img/projects/Modern Device Setup.png"
+        "image": "/assets/img/projects/Modern Device Setup.png"
       }
     ],
     "start_project_btn": "Start Your Project"
@@ -257,4 +257,4 @@
   }
 }
 
-  
+
