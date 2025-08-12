@@ -17,13 +17,14 @@ export default function Home() {
             <Success />
             <Projects />
             <Methodology />
-{/*             <Tools />
-            <Customers />
+            <Tools />
+{/*             <Customers />
             <Form />
             <Footer />   */}
         </>
     )
 
 } 
+
 
 
