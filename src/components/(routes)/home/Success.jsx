@@ -30,23 +30,23 @@ export default function Success() {
             className="w-[18px] h-[18px]"
             alt=""
           />
-          <h1 className="text-[16px] font-[400] text-[#0A40C6]">
+          <h1 className="text-[20px] font-[400] text-[#0A40C6]">
             {t("success.badge")}
           </h1>
         </div>
       </div>
 
       <div className="text-center mb-16 px-2">
-        <h1 className="text-[22px] sm:text-[28px] md:text-[40px] font-[700] text-[#000000] leading-normal md:leading-[0.5]">
+        <h1 className="text-[22px] sm:text-[28px] md:text-[40px] lg:text-[40px] font-[700] text-[#000000] leading-normal md:leading-[0.5]">
           {t("success.heading")}
         </h1>
       </div>
 
       <div className="flex flex-row flex-wrap justify-center items-center lg:gap-30 gap-10 max-w-4xl mx-auto">
         {stats.map((item, index) => (
-          <div key={index} className="flex items-center gap-2 sm:gap-4">
+          <div key={index} className="flex items-center gap-5 sm:gap-4">
             <img
-              className="bg-[#E7ECF980] rounded-[5px] p-1 w-[36px] h-[36px] sm:w-[48px] sm:h-[48px] md:w-[60px] md:h-[60px]"
+              className="bg-[#E7ECF980] rounded-[5px] p-1 w-[34px] h-[34px] sm:w-[48px] sm:h-[48px] md:w-[40px] md:h-[40px]"
               src={item.img}
               alt={item.label}
             />
