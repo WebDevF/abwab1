@@ -19,8 +19,9 @@ export default function Home() {
             <Methodology />
             <Tools />
             <Customers />
-            {/* <Form /> */}
+            <Form />
             <Footer />  
         </>
     )
+
 } 
