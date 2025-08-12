@@ -13,7 +13,7 @@ export default function Header() {
   return (
     <div className="flex flex-col items-center justify-center px-4 sm:px-6 md:px-8 lg:px-6 xl:px-6 py-3 relative">
       <div
-        className="grid w-full max-w-[370px] sm:max-w-[600px] md:max-w-[900px] lg-mid:max-w-[1100px] lg:max-w-[1200px] xl:max-w-[1300px]  2xl:max-w-[1460px]
+        className="grid w-full max-w-[390px] sm:max-w-[600px] md:max-w-[900px] lg-mid:max-w-[1100px] lg:max-w-[1200px] xl:max-w-[1300px]  2xl:max-w-[1460px]
         h-[400px] sm:h-[500px] md:h-[550px] lg-mid:h-[560px] lg:h-[575px] 
         rounded-[2.5rem] md:rounded-[3.5rem] lg-mid:rounded-[4rem] lg:rounded-[4.5rem] 
         py-4 md:p-6 lg-mid:p-7 lg:p-8 bg-cover bg-center overflow-hidden"
@@ -115,3 +115,4 @@ export default function Header() {
     </div>
   )
 }
+
