@@ -27,7 +27,7 @@ export default function Promis() {
   ]
 
   return (
-    <div className="flex flex-col items-center justify-center px-4 sm:px-6 md:px-8 lg:px-6 xl:px-6 max-sm:mt-5 xl:mt-10">
+    <div className="flex flex-col items-center justify-center px-4 sm:px-6 md:px-8 lg:px-6 xl:px-6 max-sm:mt-5 lg:mt-[2rem] md:mt-[2rem]">
       <div className="w-full max-w-[1300px] mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 xl:gap-12">
           <div className="rounded-3xl bg-gradient-to-br from-[#3768E1] to-[#0A40C6] p-6 sm:p-8 lg:p-10 flex flex-col justify-center min-h-[300px] lg:min-h-[400px] bg-[#0A40C6]">
