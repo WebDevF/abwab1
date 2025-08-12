@@ -16,8 +16,8 @@ export default function Home() {
             <Services />
             <Success />
             <Projects />
-{/*             <Methodology />
-            <Tools />
+            <Methodology />
+{/*             <Tools />
             <Customers />
             <Form />
             <Footer />   */}
@@ -25,4 +25,5 @@ export default function Home() {
     )
 
 } 
+
 
