@@ -27,7 +27,7 @@ export default function Projects() {
           <span className="text-[0.6rem] sm:text-[1rem] lg:text-[1.2rem] font-[400] text-[#0A40C6]">{t("projects.badge")}</span>
         </div>
 
-        <h1 className="text-[1rem] sm:text-[1.2rem] md:text-[2.5rem] lg:text-[2.2rem] xl:text-[2.5rem] font-[700] text-black max-w-4xl leading-tight">
+        <h1 className="text-[1rem] sm:text-[1.2rem] md:text-[2.3rem] lg:text-[2.2rem] xl:text-[2.3rem] font-[700] text-black max-w-4xl leading-tight">
           {t("projects.heading")}
         </h1>
       </div>
@@ -135,3 +135,4 @@ export default function Projects() {
     </div>
   );
 }
+
