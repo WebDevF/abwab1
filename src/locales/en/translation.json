@@ -1,0 +1,258 @@
+{
+    "header": {
+            "header_title": "Ready to turn your bold idea into a leading and profitable digital empire in record time? This is your one chance",
+            "header_desc": "At Abwab, we don't just deliver code – we design exceptional digital growth paths that competitors wouldn't dare to imagine. We unleash your project's hidden potential and deliver custom software solutions that open doors to unmatched excellence and leadership.",
+            "header_btn": "Get your free business growth strategy now – your golden opportunity to start strong and unstoppable",
+            "contact_us": "Contact Us",
+    "stats": [
+            {
+                "value": "5 Million SAR",
+                "label": "Sales Achieved For Our Clients"
+            },
+            {
+                "value": "300K",
+                "label": "Active Users Reached"
+            },
+            {
+                "value": "3X",
+                "label": "3 Times Faster Than Usual"
+            }
+        ]
+    },
+    "promis": {
+      "badge": "Our Promise to You",
+      "heading": "We work on your goal as if it were our only project – because your success is our only measure of achievement.",
+      "button": "Discover now how we can multiply your ROI beyond your imagination!",
+      "details": [
+        {
+          "title": "We think business before coding – ensuring unmatched ROI",
+          "description": "Our goal is to maximize your profits, not just write code. Every step we take focuses on delivering the highest return on your investment."
+        },
+        {
+          "title": "A complete team from A to Z – no need to look for other experts",
+          "description": "Strategy, design, development, and digital marketing – all working in harmony to deliver a complete, seamless solution that impresses you and your competitors."
+        },
+        {
+          "title": "Future-ready systems – growth and continuity without limits",
+          "description": "We build flexible and scalable solutions that ensure your project keeps evolving in an ever-changing market."
+        },
+        {
+          "title": "Strategic growth partners, not just developers – long-term commitment to your ultimate success",
+          "description": "We’re not just developers. We stay with you, providing ongoing support and consultation so you’re always ahead."
+        }
+      ]
+    }
+    , 
+    "services": {
+            "badge": "Our customized services for you",
+            "heading": "Your idea is the starting point – and we turn it into a digital product that profits, dominates, and changes the market rules forever!",
+            "buttons": [
+                "Exceptional UI/UX Design",
+                "Website Development",
+                "Professional Visual Identity & Branding",
+                "Mobile Applications (Android & iOS)",
+                "Advanced SaaS Platform Development",
+                "Technical & Strategic Consulting"
+            ]
+        }
+  , 
+    "success": {
+      "badge": "We speak in numbers",
+      "heading": "?Why do top companies and ambitious startups in Saudi Arabia and UAE trust us ",
+      "stats": [
+        { "number": "150+", "label": "Successful Projects" },
+        { "number": "89%", "label": "Client Success Rate" },
+        { "number": "24/7", "label": "Continuous Support" }
+      ]
+    }
+    ,
+  "projects": {
+    "tags": [
+      "Mobile Apps",
+      "Website"
+    ],
+    "default_description": "An innovative electronic platform that relies on NFC (Near Field Communication) technology to enable individuals and companies to share their personal and professional data quickly and with just one click. This technology allows you to exchange information in a modern and secure way, keeping you closer and making communication with your clients and partners easier.",
+    "items": [
+      {
+        "category": "Websites",
+        "title": "InTouch Website",
+        "stats": [
+          { "icon": "/assets/img/projects/fi_5069131.svg", "value": "10,000", "label": "Active Users" },
+          { "icon": "/assets/img/projects/01.svg", "value": "450,000", "label": "Funding Achieved" },
+          { "icon": "/assets/img/projects/fi_2285485.svg", "value": "45", "label": "Days to Launch" }
+        ],
+        "image": "/assets/img/projects/9afa8704-cbe4-4101-a4e4-0bc9f3f10efa 1.png"
+      },
+      {
+        "category": "Mobile Apps (Android & iOS)",
+        "title": "InTouch App",
+        "stats": [
+          { "icon": "/assets/img/projects/fi_5069131.svg", "value": "10,000", "label": "Active Users" },
+          { "icon": "/assets/img/projects/01.svg", "value": "450,000", "label": "Funding Achieved" },
+          { "icon": "/assets/img/projects/fi_2285485.svg", "value": "45", "label": "Days to Launch" }
+        ],
+        "image": "/public/assets/img/projects/High-Quality Audio Speakers.png"
+      },
+      {
+        "category": "Advanced SaaS Platforms",
+        "title": "InTouch SaaS Platform",
+        "stats": [
+          { "icon": "/assets/img/projects/fi_5069131.svg", "value": "10,000", "label": "Active Users" },
+          { "icon": "/assets/img/projects/01.svg", "value": "450,000", "label": "Funding Achieved" },
+          { "icon": "/assets/img/projects/fi_2285485.svg", "value": "45", "label": "Days to Launch" }
+        ],
+        "image": "/public/assets/img/projects/Modern Device Setup.png"
+      },
+      {
+        "category": "Professional Visual Identity & Branding",
+        "title": "InTouch Branding",
+        "stats": [
+          { "icon": "/assets/img/projects/fi_5069131.svg", "value": "10,000", "label": "Active Users" },
+          { "icon": "/assets/img/projects/01.svg", "value": "450,000", "label": "Funding Achieved" },
+          { "icon": "/assets/img/projects/fi_2285485.svg", "value": "45", "label": "Days to Launch" }
+        ],
+        "image": "/public/assets/img/projects/Modern Device Setup.png"
+      }
+    ],
+    "start_project_btn": "Start Your Project"
+  }
+  ,
+  "methodology": {
+    "sectionTag": "Our Proven Methodology",
+    "sectionTitle": "From a Simple Idea to a Successful and Dominant Product",
+    "sectionSubtitle": "This is our tried and tested roadmap for achieving dominance",
+    "steps": {
+      "1": {
+        "number": "1",
+        "title": "Deep & Detailed Discovery Session",
+        "duration": "3-5 days",
+        "description": "We dive deep into your goals, analyze the market precisely, and understand your potential customers like never before, building a solid foundation for unwavering success.",
+        "list": [
+          "Market Analysis",
+          "Competitor Study",
+          "Target Audience Identification"
+        ]
+      },
+      "2": {
+        "number": "2",
+        "title": "User Experience & Innovative Wireframing",
+        "duration": "5-7 days",
+        "description": "We validate the idea and design an unforgettable user experience before writing a single line of code, ensuring a product that meets market needs and delights users, fostering loyalty.",
+        "list": [
+          "UX/UI Design",
+          "Prototyping",
+          "User Testing"
+        ]
+      },
+      "3": {
+        "number": "3",
+        "title": "Fast, Agile Development & Full Transparency",
+        "duration": "4-8 weeks",
+        "description": "We work in focused weekly sprints with complete transparency in progress. You're a partner at every step, reviewing and ensuring full alignment as you watch your success take shape.",
+        "list": [
+          "Agile Development",
+          "Competitor Study",
+          "Target Audience Identification"
+        ]
+      },
+      "4": {
+        "number": "4",
+        "title": "Professional Launch & Strategic Marketing",
+        "duration": "2-3 weeks",
+        "description": "We don’t just develop! We assist with smooth product launches on digital stores and provide a comprehensive marketing plan to ensure maximum reach and expansion, making you the talk of the market.",
+        "list": [
+          "Store Launch",
+          "Marketing Campaigns",
+          "Performance Analytics"
+        ]
+      },
+      "5": {
+        "number": "5",
+        "title": "Long-term Support & Continuous Partnership",
+        "duration": "Ongoing",
+        "description": "We don’t disappear after delivery! We provide long-term support and become your strategic partner who grows with you, ensuring the continuous success of your project because we bet on your eternal victory.",
+        "list": [
+          "Technical Support",
+          "Continuous Development",
+          "Strategic Consulting"
+        ]
+      }
+    }
+  }
+  ,
+  "tools": {
+    "sectionTag": "Tools & Technologies",
+    "sectionTitle": "Globally Certified Technology Partners",
+    "partners": [
+      "Google Cloud Partner ✓",
+      "✓ AWS Partner",
+      "✓ Certified by Apple Developer Program"
+    ]
+  }
+  ,
+  "customers": {
+    "sectionTitle": "Customer Testimonials",
+    "mainTitle": "?What Business Leaders and Pioneers Say About Their Experience with Abwab",
+    "items": [
+      {
+        "rating": 4,
+        "text": "Abwab didn’t just deliver an app, but gave us a comprehensive and solid marketing plan, thanks to which we gained our first clients on the launch day! This is the partner you are looking for if you want immediate results.",
+        "name": "Fahad Bilal",
+        "role": "Leading SaaS Founder",
+        "project": "Project Type",
+        "platform": "Financial Services Platform"
+      },
+      {
+        "rating": 4,
+        "text": "Abwab didn’t just deliver an app, but gave us a comprehensive and solid marketing plan, thanks to which we gained our first clients on the launch day! This is the partner you are looking for if you want immediate results.",
+        "name": "Fahad Bilal",
+        "role": "Leading SaaS Founder",
+        "project": "Project Type",
+        "platform": "Financial Services Platform"
+      },
+      {
+        "rating": 4,
+        "text": "Abwab didn’t just deliver an app, but gave us a comprehensive and solid marketing plan, thanks to which we gained our first clients on the launch day! This is the partner you are looking for if you want immediate results.",
+        "name": "Fahad Bilal",
+        "role": "Leading SaaS Founder",
+        "project": "Project Type",
+        "platform": "Financial Services Platform"
+      },
+      {
+        "rating": 4,
+        "text": "Abwab didn’t just deliver an app, but gave us a comprehensive and solid marketing plan, thanks to which we gained our first clients on the launch day! This is the partner you are looking for if you want immediate results.",
+        "name": "Fahad Bilal",
+        "role": "Leading SaaS Founder",
+        "project": "Project Type",
+        "platform": "Financial Services Platform"
+      },
+      {
+        "rating": 4,
+        "text": "Abwab didn’t just deliver an app, but gave us a comprehensive and solid marketing plan, thanks to which we gained our first clients on the launch day! This is the partner you are looking for if you want immediate results.",
+        "name": "Fahad Bilal",
+        "role": "Leading SaaS Founder",
+        "project": "Project Type",
+        "platform": "Financial Services Platform"
+      }
+    ]
+  }
+  ,
+  "form": {
+    "exclusiveOffer": "Exclusive offer you can't miss!",
+    "offerDescription": "Get a comprehensive business plan for free to launch your project with confidence and success.",
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "Enter your full name",
+    "email": "Email Address",
+    "emailPlaceholder": "Enter your email",
+    "phone": "Phone Number",
+    "phonePlaceholder": "Enter your phone number",
+    "projectIdea": "Briefly describe your project idea *",
+    "projectIdeaPlaceholder": "Enter a short description of your project or the service you want to develop",
+    "submitBtn": "Get your free guide now",
+    "warningTitle": "Don't let common mistakes hold you back!",
+    "warningDescription": "Free guide: 5 mistakes most entrepreneurs make and how to avoid them to achieve sustainable profits.",
+    "warningFillNow": "Fill in your details now to get your copy instantly!"
+  }
+}
+
+  
