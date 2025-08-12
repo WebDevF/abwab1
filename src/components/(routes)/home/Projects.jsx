@@ -82,7 +82,7 @@ export default function Projects() {
                 />
               </div>
 
-              <div className="flex-1 text-right w-full order-2 md:order-1">
+              <div className="flex-1 text-center  w-full order-2 md:order-1">
                 <div className="flex flex-col md:flex-row justify-between items-center flex-wrap gap-4 mb-6">
                   <div className="flex-1 text-right">
                     <h2 className="text-[28px] sm:text-[36px] md:text-[45px] font-[700] text-black">
