@@ -84,7 +84,7 @@ export default function Methodology() {
           key={step.id}
           className={`w-full flex flex-col-reverse ${
             index % 2 === 0 ? "lg:flex-row" : "lg:flex-row-reverse"
-          } items-center gap-6 px-4 sm:px-6 md:px-10 py-8 md:py-10 group cursor-pointer relative`}
+          } items-center gap-6 px-8 sm:px-6 md:px-10 py-5 sm:py-8 md:py-10 group cursor-pointer relative h-[20rem]`}
         >
           <div className="hidden lg:block absolute top-[0%] bottom-[0%] left-1/2 w-[2px] bg-[#0000001A] transform -translate-x-1/2"></div>
 
@@ -92,40 +92,39 @@ export default function Methodology() {
             className="hidden lg:flex absolute left-1/2 transform -translate-x-1/2  
              w-[20px] h-[20px] rounded-full border-[4px] border-white 
              bg-[#0A40C6] shadow-[0_0_20px_#0041E830] opacity-50 group-hover:opacity-100 transition-all duration-300"
-            style={{ top: "13%" }}
+            style={{ top: "0%" }}
           ></div>
 
-
           <div
-            className={`w-full lg:w-1/2 bg-[#FAFAFA] rounded-[2rem] p-5 flex flex-col gap-6 
+            className={`w-full lg:w-1/2 bg-[#FAFAFA] rounded-[1.5rem] p-4 sm:p-5 md:p-6 flex flex-col gap-4 sm:gap-5 
             ${index % 2 === 0 ? "lg:pr-8" : "lg:pl-8"}`}
           >
             <div className="flex items-start gap-4 flex-row-reverse">
-              <div className="bg-[#3768E1] p-3 w-[60px] h-[60px] sm:w-[70px] sm:h-[70px] rounded-[16px] flex items-center justify-center">
+              <div className="bg-[#3768E1] p-3 w-[55px] h-[55px] sm:w-[65px] sm:h-[65px] rounded-[14px] flex items-center justify-center">
                 <img
                   src={step.icon}
-                  className="w-[28px] h-[28px] sm:w-[32px] sm:h-[32px]"
+                  className="w-[26px] h-[26px] sm:w-[30px] sm:h-[30px]"
                   alt=""
                 />
               </div>
 
               <div className="flex flex-row-reverse items-start gap-4 flex-grow justify-end">
                 <div className="flex flex-col">
-                  <h1 className="text-[22px] sm:text-[24px] md:text-[26px] font-[700] text-[#000000]">
+                  <h1 className="text-[20px] sm:text-[22px] md:text-[24px] font-[700] text-[#000000]">
                     {step.title}
                   </h1>
-                  <p className="bg-[#F3F3F3] rounded-[8px] w-[80px] h-[30px] flex items-center justify-center text-[#3D3C3C] text-[14px] font-[300]">
+                  <p className="bg-[#F3F3F3] rounded-[8px] w-[80px] h-[28px] flex items-center justify-center text-[#3D3C3C] text-[14px] font-[300]">
                     {step.duration}
                   </p>
                 </div>
-                <div className="bg-[#E7ECF9] rounded-[16px] w-[50px] h-[60px] sm:w-[60px] sm:h-[70px] flex items-center justify-center text-[36px] sm:text-[48px] font-[400] text-[#0A40C6]">
+                <div className="bg-[#E7ECF9] rounded-[14px] w-[48px] h-[58px] sm:w-[55px] sm:h-[65px] flex items-center justify-center text-[34px] sm:text-[44px] font-[400] text-[#0A40C6]">
                   {step.number}
                 </div>
               </div>
             </div>
 
-            <div className="flex flex-col gap-4">
-              <p className="text-[18px] sm:text-[20px] md:text-[24px] font-[400] text-[#3D3C3C]">
+            <div className="flex flex-col gap-3">
+              <p className="text-[16px] sm:text-[18px] md:text-[20px] font-[400] text-[#3D3C3C]">
                 {step.description}
               </p>
               <ul className="flex flex-col gap-2">
@@ -146,11 +145,11 @@ export default function Methodology() {
             </div>
           </div>
 
-          <div className="w-full lg:w-1/2 flex justify-center p-4 sm:p-8 md:p-15">
+          <div className="hidden lg:flex w-full lg:w-1/2 justify-center p-4 sm:p-8 md:p-15">
             <img
               src={step.image}
               alt={`Step ${step.number} Visual`}
-              className="rounded-[2rem] w-[220px] h-[220px] sm:w-[250px] sm:h-[250px] md:w-[282px] md:h-[282px] max-sm:opacity-100 md:opacity-50 md:group-hover:opacity-100 transition-all duration-300 cursor-pointer"
+              className="rounded-[2rem] w-[200px] h-[200px] sm:w-[230px] sm:h-[230px] md:w-[260px] md:h-[260px] opacity-50 group-hover:opacity-100 transition-all duration-300 cursor-pointer"
             />
           </div>
         </div>
