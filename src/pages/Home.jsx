@@ -18,13 +18,14 @@ export default function Home() {
             <Projects />
             <Methodology />
             <Tools />
-{/*             <Customers />
-            <Form />
-            <Footer />   */}
+            <Customers />
+{/*             <Form /> */}
+            <Footer />  
         </>
     )
 
 } 
+
 
 
 
