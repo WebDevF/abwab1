@@ -1,4 +1,4 @@
-{
+{{
     "header": {
             "header_title": "جاهز لتحويل فكرتك الجريئة إلى إمبراطورية رقمية قيادية ومربحة في وقت قياسي؟ هذه فرصتك الوحيدة",
             "header_desc": "في أبواب، لا نُقدّم لك مجرد أكواد، بل نُصمم لك مسارات نمو رقمي استثنائية لا يجرؤ المنافسون على تخيلها. نُطلق العنان لإمكانيات مشروعك الكامنة، ونُسلّم حلولاً برمجية مُخصصة تفتح لك أبواب التميّز والريادة المطلقة التي لا يستطيع أحد مجرد الاقتراب منها.",
@@ -93,7 +93,7 @@
           { "icon": "/assets/img/projects/01.svg", "value": "450,000", "label": "تمويل محقق" },
           { "icon": "/assets/img/projects/fi_2285485.svg", "value": "45", "label": "يوم للإطلاق" }
         ],
-        "image": "/public/assets/img/projects/High-Quality Audio Speakers.png"
+        "image": "/assets/img/projects/High-Quality Audio Speakers.png"
       },
       {
         "category": "منصات SaaS متطورة",
@@ -103,7 +103,7 @@
           { "icon": "/assets/img/projects/01.svg", "value": "450,000", "label": "تمويل محقق" },
           { "icon": "/assets/img/projects/fi_2285485.svg", "value": "45", "label": "يوم للإطلاق" }
         ],
-        "image": "/public/assets/img/projects/Modern Device Setup.png"
+        "image": "/assets/img/projects/Modern Device Setup.png"
       },
       {
         "category": "هوية بصرية و Branding احترافية",
@@ -113,7 +113,7 @@
           { "icon": "/assets/img/projects/01.svg", "value": "450,000", "label": "تمويل محقق" },
           { "icon": "/assets/img/projects/fi_2285485.svg", "value": "45", "label": "يوم للإطلاق" }
         ],
-        "image": "/public/assets/img/projects/Modern Device Setup.png"
+        "image": "/assets/img/projects/Modern Device Setup.png"
       }
     ],
     "start_project_btn": "ابدأ مشروعك"
