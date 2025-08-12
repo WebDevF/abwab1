@@ -84,7 +84,7 @@ export default function Methodology() {
           key={step.id}
           className={`w-full flex flex-col-reverse ${
             index % 2 === 0 ? "lg:flex-row" : "lg:flex-row-reverse"
-          } items-center gap-6 px-8 sm:px-6 md:px-10 py-5 sm:py-8 md:py-10 group cursor-pointer relative h-[20rem]`}
+          } items-center gap-6 px-8 sm:px-6 md:px-10 py-2 sm:py-8 md:py-10 group cursor-pointer relative `}
         >
           <div className="hidden lg:block absolute top-[0%] bottom-[0%] left-1/2 w-[2px] bg-[#0000001A] transform -translate-x-1/2"></div>
 
