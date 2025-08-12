@@ -6,12 +6,10 @@ export default function Projects() {
 
   const projectsData = t("projects", { returnObjects: true });
 
-  // نخزن الـ category الأساسي بناءً على أول عنصر في اللغة العربية
   const [activeCategory, setActiveCategory] = useState(
     t("projects.items", { lng: "ar", returnObjects: true })[0].category
   );
 
-  // لما اللغة تتغير نحدث activeCategory بناءً على نفس الـ index
   useEffect(() => {
     const firstCategory = t("projects.items", {
       lng: i18n.language,
@@ -23,6 +21,16 @@ export default function Projects() {
   return (
     <div className="py-16">
       <div className="flex flex-wrap justify-center gap-4 mb-10">
+      <div className="w-full flex flex-col items-center text-center gap-4 px-4 sm:px-6 lg:px-8 py-5 sm:py-8 lg:mt-10">
+        <div className="flex items-center gap-2 text-sm sm:text-base font-normal text-[#0A40C6] bg-[#E7ECF9] px-3 sm:px-4 py-2 rounded-full w-fit">
+          <img src="/assets/img/services/Layer_x0020_1 (1).svg" className="w-4 h-4 sm:w-5 sm:h-5" alt="" />
+          <span className="text-[0.6rem] sm:text-[1rem] lg:text-[1.2rem] font-[400] text-[#0A40C6]">{t("projects.badge")}</span>
+        </div>
+
+        <h1 className="text-[1rem] sm:text-[1.2rem] md:text-[2.5rem] lg:text-[2.2rem] xl:text-[2.5rem] font-[700] text-black max-w-4xl leading-tight">
+          {t("projects.heading")}
+        </h1>
+      </div>
         {projectsData.items.map((proj, i) => (
           <button
             key={i}
@@ -83,11 +91,7 @@ export default function Projects() {
                 </p>
 
                 <div
-                  className="flex flex-col md:flex-row justify-between w-full px-[24px] py-[16px] rounded-[20px]"
-                  style={{
-                    background: `linear-gradient(0deg, rgba(24, 89, 253, 0.47), rgba(221, 231, 255, 0.47)),
-                                 linear-gradient(0deg, rgba(255, 255, 255, 0), rgb(255, 255, 255))`,
-                  }}
+                  className="flex flex-col md:flex-row justify-between w-full px-[24px] py-[16px] rounded-[20px] bg-[#FDFDFF]"
                 >
                   {project.stats.map((stat, i) => (
                     <div
