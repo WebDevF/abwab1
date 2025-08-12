@@ -67,6 +67,8 @@
     }
     ,
   "projects": {
+    "badge": "Our projects",
+    "heading": "Watch in action: Real projects that delivered outstanding results, changed the game rules, and exceeded all expectations!",
     "tags": [
       "Mobile Apps",
       "Website"
